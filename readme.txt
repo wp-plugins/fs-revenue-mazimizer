@@ -4,7 +4,7 @@ Donate link: http://www.flamescorpion.com
 Tags: ads, adsense, advertising, display, posts. google
 Requires at least: 2.5.2
 Tested up to: 3.7.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue 10 times. 
 
@@ -39,6 +39,10 @@ If your theme contains a slider or any other feature that will use the_content f
 
 
 == Changelog ==
+
+= 1.0.1 =
+* Now ads can show on homepage too ( only on the first post )
+* Fixed the problem when ads were not displayed in some situations
 
 = 1.0 =
 * This is the first version of the plugin. Any suggestions and feedback is highly appreciated.
