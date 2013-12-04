@@ -4,7 +4,7 @@ Donate link: http://www.flamescorpion.com
 Tags: ads, adsense, advertising, display, posts. google
 Requires at least: 2.5.2
 Tested up to: 3.7.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 
 Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue 10 times. 
 
@@ -39,6 +39,9 @@ If your theme contains a slider or any other feature that will use the_content f
 
 
 == Changelog ==
+
+= 1.1.2 = 
+* Added the option to center the ad
 
 = 1.1.1 =
 * Minor change to prevent the ad to be displayed twice.
