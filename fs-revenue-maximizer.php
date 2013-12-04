@@ -4,7 +4,7 @@ Plugin Name: FS Revenue Maximizer
 Plugin URI: http://www.flamescorpion.com
 Description: Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue 10 times. 
 Author: Lucian Apostol
-Version: 1.1
+Version: 1.1.1
 Author URI: http://www.flamescorpion.com
 */
 
@@ -79,7 +79,18 @@ function fsrm_ad_placement($content) {
 	
 	global $adadded;
 	global $next;
+	
+	
+	
 	if(!$adadded && is_main_query()) {
+		
+		if($next) $adadded = 1;
+		$next = 1;		
+		
+		if($tryagain <= 1) $adadded = 1;
+		
+				
+		if($adadded) {
 		$para = explode("</p>", $content, $pid+1);
 		// var_dump($para); // debug
 		$content = $para[0].'</p>';
@@ -91,11 +102,9 @@ function fsrm_ad_placement($content) {
 		if (!empty($para[$pid])) {
    	 		$content .= $para[$pid];
 		}
+		}
 		
-		if($next) $adadded = 1;
-		$next = 1;		
-		
-		if($tryagain <= 1) $adadded = 1;
+
 	}
 	
 
