@@ -4,7 +4,7 @@ Plugin Name: FS Revenue Maximizer
 Plugin URI: http://www.flamescorpion.com
 Description: Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue 10 times. 
 Author: Lucian Apostol
-Version: 1.2
+Version: 1.2.1
 Author URI: http://www.flamescorpion.com
 */
 
@@ -56,7 +56,7 @@ function fsrm_plugin_options() {
 			<option value="1" <?php if(get_option('fsrm-tryagain')=='1') echo "selected"; ?> >First option</option>
 			<option value="2"<?php if(get_option('fsrm-tryagain')=='2') echo "selected"; ?>>Second option</option>
 		</select><br />
-		Some plugins or theme features might prevent this plugin from working correctly. If the ad does not appear on your post pages with the default option ( First Option ), then select "Second Option". Be aware that selecting Second Option might display the ad in the first 2 articles on the homepage and can cause adsense policy violations. Do not select Second Option unless First option does not work. 		
+		Some plugins or theme features might prevent this plugin from working correctly. If the ad does not appear on your post pages with the default option ( First Option ), then select "Second Option". Be aware that selecting Second Option when not needed might display the ad in the first 2 articles on the homepage and can cause adsense policy violations. Do not select Second Option unless First option does not work. 		
 		<br /><br />
 
 

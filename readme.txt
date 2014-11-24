@@ -3,8 +3,8 @@ Contributors: Lucian Apostol
 Donate link: http://www.flamescorpion.com
 Tags: ads, adsense, advertising, display, posts. google
 Requires at least: 2.5.2
-Tested up to: 3.9.1
-Stable tag: 1.2
+Tested up to: 4.0.1
+Stable tag: 1.2.1
 
 Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue 10 times. 
 
@@ -39,6 +39,9 @@ If your theme contains a slider or any other feature that will use the_content f
 
 
 == Changelog ==
+
+= 1.2.1 =
+* Checked and tested for Wordpress 4.0.1 compatibility
 
 = 1.2 =
 * Tested and updated to work with 3.9.1 Wordpress version
