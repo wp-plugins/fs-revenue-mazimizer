@@ -4,7 +4,7 @@ Plugin Name: FS Revenue Maximizer
 Plugin URI: http://www.flamescorpion.com
 Description: Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue 10 times. 
 Author: Lucian Apostol
-Version: 1.2.1
+Version: 1.2.2
 Author URI: http://www.flamescorpion.com
 */
 
@@ -19,8 +19,6 @@ function fsrm_register_settings() { // whitelist options
   register_setting( 'fsrm-settings', 'fsrm-adcode' );
   register_setting( 'fsrm-settings', 'fsrm-tryagain' );
 }
-
-
 
 function fsrm_plugin_menu() {
 	add_options_page( 'FS Revenue Maximizer', 'FS Revenue Maximizer', 'manage_options', 'fs-revenue-mazimizer', 'fsrm_plugin_options' );
@@ -42,7 +40,6 @@ function fsrm_plugin_options() {
 		do_settings_sections('fsrm-settings_display');
 		
 ?>
-
 		Where ad will be displayed: <select name="fsrm-pharagraph">
 			<option value="1" <?php if(get_option('fsrm-pharagraph')=='1') echo "selected"; ?> >After first pharagraph</option>
 			<option value="2"<?php if(get_option('fsrm-pharagraph')=='2') echo "selected"; ?>>After second pharagraph</option>
@@ -65,7 +62,6 @@ function fsrm_plugin_options() {
 	submit_button('Save');
 	echo '</form></div>';
 }
-
 
 
 //Start the adding
@@ -116,11 +112,6 @@ function fsrm_ad_placement($content) {
 
 	return $content;
 }
-
-
-
-
-
 
 
 ?>
