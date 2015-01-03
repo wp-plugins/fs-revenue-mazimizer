@@ -3,7 +3,7 @@ Contributors: Lucian Apostol
 Donate link: http://www.autoaffiliatelinks.com
 Tags: ads, adsense, advertising, display, posts. google
 Requires at least: 2.5.2
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: 1.2.2
 
 Adds your Adsense or any other ads inside your content ( after the first or second paragraph ), enabling you to increase your revenue 10 times. 
