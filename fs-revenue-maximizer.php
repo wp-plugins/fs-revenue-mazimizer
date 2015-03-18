@@ -2,9 +2,9 @@
 /*
 Plugin Name: FS Revenue Maximizer
 Plugin URI: http://www.flamescorpion.com
-Description: Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue 10 times. 
+Description: Adds your adsense or any other ads inside your content ( after the first or second pharagraph ), enabling you to increase your revenue up to 10 times. 
 Author: Lucian Apostol
-Version: 1.2.2
+Version: 1.3
 Author URI: http://www.flamescorpion.com
 */
 
